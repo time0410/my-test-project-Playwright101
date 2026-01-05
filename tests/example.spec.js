@@ -4,7 +4,7 @@ const { test, expect } = require('@playwright/test');
 // Test แรก: เปิด Google แล้วค้นหา
 test('ค้นหาใน Google', async ({ page }) => {
   // 1. เปิดเว็บ Google
-  await page.goto('https://www.google.com');
+  await page.goto('https://www.google.co.th');
 
   // 2. หาช่องค้นหา แล้วพิมพ์
   await page.fill('textarea[name="q"]', 'Playwright');
